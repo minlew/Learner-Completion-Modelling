@@ -5,18 +5,18 @@
 This project predicts whether an apprentice is likely to overrun their expected completion timeline using early engagement and learner data.
 The goal is to enable early intervention and improve completion outcomes.
 
-##Problem Framing
+## Problem Framing
 Originally modelled as a regression problem (predicting total days on programme), the project was reframed into a binary classification task:
 "Will this learner complete on time or overrun?"
 This shift improves business actionability and intervention targeting.
 
-##Approach
+## Approach
 * Data cleaning and preprocessing
 * Feature engineering from early engagement metrics
 * Scikit-learn Pipelines with ColumnTransformer
 * Train/test split with cross-validation
 
-##Evaluation
+## Evaluation
 Metrics used:
 * ROC-AUC
 * Precision/Recall
@@ -24,7 +24,7 @@ Metrics used:
 * Confusion Matrix
 Tree-based models perfomed best, with behavioural engagement features providing the strongest predictive signal.
 
-##Tech Stack
+## Tech Stack
 * Python
 * Pandas & NumPy
 * Scikit-learn
