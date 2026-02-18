@@ -1,9 +1,10 @@
-# Apprenticeship Completion Risk Modelling
+# Early Risk Prediction for Apprenticeship Completion
 
-## Overview
+## Business Problem
 
-This project predicts whether an apprentice is likely to overrun their expected completion timeline using early engagement and learner data.
-The goal is to enable early intervention and improve completion outcomes.
+Late completions create operational strain, reduce funding predictability, and limit intervention capacity.
+
+This project builds a model to identify, within the first 90 days, which learners are at risk of overrunning their programme timeline.
 
 ## Approach
 * Data cleaning and preprocessing
@@ -17,6 +18,13 @@ Metrics used:
 * Precision/Recall
 * F1 Score
 * Confusion Matrix
+
+## Business Application
+This model could:
+* Trigger early intervention workflows
+* Improve completion rates
+* Support operational forecasting
+* Optimise support resource allocation
 
 ## Tech Stack
 * Python
