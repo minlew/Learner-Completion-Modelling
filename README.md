@@ -34,9 +34,7 @@ This model could:
 * Jupyter Notebook
 
 ## Getting Started
-1. Clone this repository. 
+1. Clone this repository.
 2. Create virtual environment.
-3. Install [requirements](requirements.txt).
-
-   `pip install -r requirements.txt`
+3. Install [requirements](requirements.txt): `pip install -r requirements.txt`
 4. Run [script](Learner-Completion-Modelling.ipynb) in Jupyter Notebook or Google Colab.
